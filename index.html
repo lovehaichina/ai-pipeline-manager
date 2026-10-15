@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>通用产线工坊</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316324f'/%3E%3Cpath d='M9 10h14M9 16h9M9 22h11' stroke='%23fbbf24' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="top-in">
+    <a class="brand" href="#/">
+      <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#16324f"/><path d="M9 10h14M9 16h9M9 22h11" stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <span>通用产线工坊</span>
+    </a>
+    <nav class="nav">
+      <a href="#/" data-nav="home">工作台</a>
+      <a href="#/config" data-nav="config">流程与属性配置</a>
+    </nav>
+    <div id="flowBar" class="flowbar"></div>
+  </div>
+</header>
+
+<main id="app" class="app" role="main" aria-live="polite">
+  <div class="loading">加载中…</div>
+</main>
+
+<footer class="foot">
+  <span>通用产线工坊</span>
+</footer>
+
+<div id="modalRoot"></div>
+<div id="toastRoot" class="toasts" aria-live="assertive"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
